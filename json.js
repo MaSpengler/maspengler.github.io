@@ -3,6 +3,6 @@ $().ready(function(){
     console.log(data);
     $("#text").html(data["text"]);
     $("#category").html(data["category"]);
-    console.log($("#text").html(data)) 
+    console.log($("#text").html(data["text"])) 
   });
 });
